@@ -19,11 +19,11 @@ int finduserstring(char cstr[], int cstrlen, char userstr[], int userlen)
                 break;
             }
         }
-        if (j=userlen){
+        if (j==userlen){
             return i;
         }
     }
-    return 0;
+    return -1;
 }
 
 #endif
